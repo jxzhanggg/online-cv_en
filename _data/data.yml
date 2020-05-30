@@ -1,0 +1,166 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Jing-Xuan Zhang
+    tagline: 
+    avatar: me2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: nosisi@mail.ustc.edu.cn
+    phone: +86 18110931750
+    website:  jxzhanggg.github.io/online-cv #do not add http://
+    linkedin: 景宣-张-769888bb #alandoe
+    github: jxzhanggg
+    gitlab:
+    bitbucket:
+    twitter: #'@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: (IELTS 7.0 / 9.0)
+      - idiom: Chinese
+        level: (Native)
+
+    interests:
+      - item: Hiking, Movies, Badminton
+        link: #
+
+
+career-profile:
+    title: Profile
+    summary: |
+      My research insterests are speech generation and voice conversion (VC). In my PhD career, my studies are basically on speech-related task. One of them is to enhance
+      the performance of conventional voice conversion by sequence-to-sequence (seq2seq) model. And 
+      I further extended the seq2seq based VC into non-parallel scenario by learning disentangled 
+      representations. Other works include VC based on adversarial learning. As a visiting 
+      research student in University of Edinburgh, my research is mainly on speech recovery from 
+      tongue and lip videos.
+education:
+    - degree: PhDs in Electronic Engineering and Information Science
+      university: University of Science and Technology of China
+      time: 2016.09 - 2021.06
+      tutor: Tutor：Prof. Zhen-Hua Ling, Prof. Li-Rong Dai
+    
+    - degree: Visiting Research Student
+      university: University of Edinburgh, CSTR
+      time: 2020.02 - 2020.08
+      tutor: Tutor：Prof. Korin Richmond
+
+    - degree: BSs in Electronic Engineering and Information Science
+      university: University of Science and Technology of China, School for Gifted Young
+      time: 2012.09 - 2016.06
+      tutor: #
+
+experiences:
+    - role: Visiting Research Student
+      time: 2020.02 - 2020.08
+      company: CSTR, University of Edinburgh, UK
+      details: |
+          <p>
+          <ul>
+            <li> Speech reconstruction from ultrasound tongue and lip articulation video is difficult.
+            However, they have wide applications such silence speech interface,
+            brain-to-speech inferface and communication in highly noisy conditions. It's a challenging
+            but insteresting task worthed more studies.</li>
+            <li> Engaged in <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> ,  and
+            the results will be announced in July 31st, 2020 </li>
+          </ul>
+          </p>
+    
+    - role: Internship
+      time: 2017.11 - 2018.08
+      company: iFLYTEK Co. Ltd., Hefei, China
+      details: |
+          <p>
+          <ul>
+            <li> Engaged in part of <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a>,  won the first place</li>
+            <li> Provide the dataset for Anti-Spoofing Verification 2019 based on our VCC2018 system</li>
+            <li> Research on sequence-to-sequence based voice conversion method</li>
+            <li> Build up a DNN based speech enhancement model for improving voice quality of low-bit quantized WaveNet</li>
+          </ul>
+          </p>
+
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: Non-Parallel Seq2seq Voice Conversion
+        link:  https://github.com/jxzhanggg/nonparaSeq2seqVC_code 
+        tagline: An open-source project. Seq2seq model is powerful for VC but require parallel training data. In this work, we presented a  method learning disentangled speakers and linguistic representations, making it feasible to build up seq2seq VC model using only non-parallel training data. 2018.3 - 2019.11
+      
+      - title: SAMSUNG Research & NELSLIP
+        link: #"#"
+        tagline: Build up a single-channel speech enhancement model for mobile devices. Used a progressive learning strategy and multi-task learning of acoustic features and IRM. 2016.11 - 2017.5 
+
+      - title: National Undergraduate Innovation Projection
+        link: #"#"
+        tagline: Speech-to-sing conversion. The acoustic parameters are controlled explicitly to match the music notes for generating singing voice. The major module includes speech-to-text alignment component, time-adjustment component and F0/Spectrograms modification component. 2015.5 - 2016.5
+
+publications:
+    title: Publications
+    intro: |
+          
+    papers:
+      - title: Non-Parallel Sequence-to-Sequence Voice Conversion with Disentangled Linguistic and Speaker Representations
+        link: https://arxiv.org/abs/1906.10508
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
+        conference: IEEE/ACM Trans. on Audio, Speech and Lang. Proc., 2020
+
+      - title: Sequence-to-Sequence Acoustic Modeling for Voice Conversion
+        link: https://arxiv.org/abs/1810.06865
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Juan Liu, Yuan Jiang, Li-Rong Dai
+        conference:  IEEE/ACM Trans. on Audio, Speech, and Lang. Proc., 2019
+
+      - title: Recognition-Synthesis Based Non-Parallel Voice Conversion with Adversarial Learning
+        link: #"#"
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
+        conference: INTERSPEECH, 2020, submitted
+      
+      - title: Improving Sequence-to-Sequence Voice Conversion by Adding Text-Supervision
+        link:  https://arxiv.org/abs/1811.08111
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Yuan Jiang, Li-Juan Liu, Liang Chen, Li-Rong Dai
+        conference: ICASSP, 2019
+      
+      - title: Forward Attention in Sequence-to-Sequence Acoustic Modeling for Speech Synthesis
+        link: https://arxiv.org/abs/1807.06736
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
+        conference: ICASSP, 2019
+
+      - title: DNN-Based Spectral Enhancement For Neural Waveform Generators With Low-Bit Quantization
+        link: https://ieeexplore.ieee.org/document/8683016/
+        authors: Yang Ai, Jing-Xuan Zhang, Zhen-Hua Ling
+        conference: ICASSP, 2019
+      
+      - title: "ASVspoof 2019: a large-scale public database of synthetic, converted and replayed speech"
+        link:  https://arxiv.org/abs/1911.01601
+        authors: Xin Wang, et al., Jing-Xuan Zhang, Zhen-Hua Ling
+        conference: Computer Speech and Language, 2019
+
+
+skills:
+    title: Skills
+
+    toolset:
+      - name: Python 
+        level: 95%
+
+      - name: PyTorch, Tensorflow
+        level: 95%
+
+      - name: Matlab, C++
+        level: 70%
+
+footer: >
+    Last Update 2020/5/30 Download my <a href="assets/images/zjx_cv_en.pdf" target="_blank" rel="nofollow">CV</a>
+
+    
+

@@ -82,7 +82,7 @@ experiences:
       details: |
           <p>
           <ul>
-            <li> Engaged in part of <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a>,  won the first place.</li>
+            <li> Engaged in part of <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> and won the first place.</li>
             <li> Provided the dataset for Anti-Spoofing Verification 2019 based on our VCC2018 system.</li>
             <li> Research on sequence-to-sequence based voice conversion method.</li>
             <li> Built a DNN based speech enhancement model for improving voice quality of low-bit quantized WaveNet.</li>

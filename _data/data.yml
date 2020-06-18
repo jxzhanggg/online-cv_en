@@ -71,8 +71,8 @@ experiences:
             However, they have wide applications such silence speech interface,
             brain-to-speech inferface and communication in highly noisy conditions. It's a challenging
             but insteresting task worthed more studies.</li>
-            <li> Engaged in <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> ,  and
-            the result will be announced in July 31st, 2020.</li>
+            <li> Engaged in <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> on behalf of the NELSLIP team. I'm responsible for the developement of the acoustic model in both mono and cross task  
+            The result will be announced in July 31st, 2020.</li>
           </ul>
           </p>
     
@@ -82,7 +82,7 @@ experiences:
       details: |
           <p>
           <ul>
-            <li> Engaged in part of <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> and won the first place.</li>
+            <li> Partly engaged in of <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> and won the first place.</li>
             <li> Provided the dataset for Anti-Spoofing Verification 2019 based on our VCC2018 system.</li>
             <li> Research on sequence-to-sequence based voice conversion method.</li>
             <li> Built a DNN based speech enhancement model for improving voice quality of low-bit quantized WaveNet.</li>

@@ -38,10 +38,10 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      My research insterests include speech generation and voice conversion (VC). In my PhD career, my studies are basically on speech-related task. One of them is to enhance
+      My research insterests include speech generation and voice conversion (VC). In my PhD career, most my studies are based on speech-related task. One of them is to enhance
       the performance of conventional voice conversion by sequence-to-sequence (seq2seq) model. And 
       I further extended the seq2seq based VC into non-parallel scenario by learning disentangled 
-      representations. As a visiting 
+      representations. I also explored the adversarial learning method for voice conversion. As a visiting 
       research student in University of Edinburgh, my research is mainly on speech recovery from 
       tongue and lip videos.
 education:
@@ -55,7 +55,7 @@ education:
       time: 2020.02 - 2020.08
       tutor: Tutor：Prof. Korin Richmond
 
-    - degree: BSc in Electronic Engineering and Information Science
+    - degree: B.E. in Electronic Engineering and Information Science
       university: University of Science and Technology of China, School for Gifted Young
       time: 2012.09 - 2016.06
       tutor: #
@@ -67,11 +67,11 @@ experiences:
       details: |
           <p>
           <ul>
-            <li> Speech reconstruction from ultrasound tongue and lip videos is difficult.
-            However, they have wide applications such silence speech interface,
-            brain-to-speech inferface and communication in highly noisy conditions. It's a challenging
-            but insteresting task worthed more studies.</li>
-            <li> Engaged in <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> on behalf of the NELSLIP team. I'm responsible for the developement of the acoustic model in both mono and cross task  
+            <li> Speech reconstruction from ultrasound tongue and lip videos has wide applications,
+            such as silence speech interface and communication in highly noisy conditions. However, it's a challenging
+            task because of lacking in training data and one-to-many mapping issue. It's an interesting task worthed more
+            studies.</li>
+            <li> Participated in <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> on behalf of the USTC_NELSLIP team. I'm responsible for the developement of the acoustic model in mono- and cross-lingual task  
             The result will be announced in July 31st, 2020.</li>
           </ul>
           </p>
@@ -82,10 +82,10 @@ experiences:
       details: |
           <p>
           <ul>
-            <li> Partly engaged in of <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> and won the first place.</li>
+            <li> Partly participated in <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> and our team won the first place.</li>
             <li> Provided the dataset for Anti-Spoofing Verification 2019 based on our VCC2018 system.</li>
             <li> Research on sequence-to-sequence based voice conversion method.</li>
-            <li> Built a DNN based speech enhancement model for improving voice quality of low-bit quantized WaveNet.</li>
+            <li> Built a DNN based speech enhancement model for improving voice quality of low-bit quantization WaveNet.</li>
           </ul>
           </p>
 
@@ -95,15 +95,15 @@ projects:
     assignments:
       - title: Non-Parallel Seq2seq Voice Conversion
         link:  https://github.com/jxzhanggg/nonparaSeq2seqVC_code 
-        tagline: An open-source project. Seq2seq model is powerful for VC but requires parallel training data. In this work, we presented a  method learning disentangled speakers and linguistic representations, making it feasible to train the seq2seq VC model using only non-parallel training data. 2018.3 - 2019.11
+        tagline: An open-source project. Seq2seq model is powerful for VC, especially in prosody and duration conversion. However, it requires parallel training data. In this work, we presented a method learning disentangled speaker and linguistic representations, making it feasible to train a seq2seq VC model using only non-parallel training data. 2018.3 - 2019.11
       
       - title: SAMSUNG Research & NELSLIP
         link: #"#"
-        tagline: Built a single-channel speech enhancement model for mobile device. Used a progressive learning strategy and multi-task learning of acoustic features and IRMs. 2016.11 - 2017.5 
+        tagline: Built a single-channel speech enhancement model for mobile device. Used a progressive learning strategy and multi-task learning of acoustic features and IRMs. PESQ of enhanced speech by our method are improved 0.2 over those processed by the baseline.  2016.11 - 2017.5 
 
       - title: National Undergraduate Innovation Projection
         link: #"#"
-        tagline: Speech-to-sing conversion. The acoustic parameters were modified to match the music notes for generating singing voice. The major modules include speech-to-text alignment component, time-adjustment component and F0 & spectrograms modification component. 2015.5 - 2016.5
+        tagline: Developed a speech-to-sing  software. The acoustic parameters were modified to match the music notes for generating singing voice. The major modules include speech-to-text alignment component, time-adjustment component and F0 & spectrograms modification component. 2015.5 - 2016.5
 
 publications:
     title: Publications
@@ -160,7 +160,7 @@ skills:
         level: 70%
 
 footer: >
-    Last Update 2020/5/30 <a href="assets/images/zjx_cv_en.pdf" target="_blank" rel="nofollow">Download my CV</a>
+    Last Update 2020/7/15 <a href="assets/images/zjx_cv_en.pdf" target="_blank" rel="nofollow">Download my CV</a>
 
     
 
